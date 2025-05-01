@@ -19,3 +19,11 @@
   --text-color: #1a2428;
   --bg-color: #fff;
 }
+
+img {
+    width: 100%;
+}
+
+body {
+    color: var(--text-color);
+}
