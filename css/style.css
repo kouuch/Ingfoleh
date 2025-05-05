@@ -19,7 +19,8 @@
   --text-color: #1a2428;
   --bg-color: #fff;
 }
-A img {
+
+img {
   width: 100%;
 }
 
@@ -44,4 +45,7 @@ header {
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
+}
+
+.profile {
 }
