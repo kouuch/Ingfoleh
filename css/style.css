@@ -14,8 +14,8 @@
 :root {
   --green-color: #3cb815;
   --light-green-color: #c0eb7b;
-  --orange-color: ;
-  --light-orange-color: #ff7e00;
+  --orange-color: #ff7e00;
+  --light-orange-color: #f75f1d;
   --text-color: #1a2428;
   --bg-color: #fff;
 }
@@ -74,4 +74,9 @@ header {
   font-weight: 600;
   color: var(--text-color);
   column-gap: 0.5rem;
+}
+
+.logo .bx {
+  font-size: 24px;
+  color: var(--orange-color);
 }
