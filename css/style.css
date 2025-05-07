@@ -110,7 +110,7 @@ header {
   z-index: 10001;
   display: none;
 }
-
+/* bacground belum final */
 .container {
   position: relative;
   width: 100%;
@@ -123,7 +123,7 @@ header {
   background-position: center;
   overflow: hidden;
 }
-
+/* ytang mainkan penyesuaian foto */
 .container img {
   width: 450px;
   position: absolute;
@@ -146,4 +146,17 @@ header {
   font-size: 2.4rem;
   font-weight: 700;
   margin-bottom: 1rem;
+}
+
+.btn {
+  padding: 0.6rem;
+  background: var(--green-color);
+  color: var(--bg-color);
+  font-weight: 400;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 0.5rem;
+  max-width: 180px;
 }
