@@ -160,3 +160,17 @@ header {
   column-gap: 0.5rem;
   max-width: 180px;
 }
+
+.btn .bx {
+  padding: 4px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  border-radius: 1rem;
+  font-size: 1rem;
+  margin: auto;
+}
+
+.btn:hover {
+  background: var(--light-orange-color);
+  transition: 0.2s ease;
+}
