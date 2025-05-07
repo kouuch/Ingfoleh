@@ -117,8 +117,16 @@ header {
   min-height: 640px;
   display: flex;
   align-items: center;
-  background: url("images/bg.jpg");
+  background: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
+}
+
+.container img {
+  width: 600px;
+  position: absolute;
+  bottom: -5px;
+  right: 200px;
 }
