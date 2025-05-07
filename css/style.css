@@ -125,8 +125,25 @@ header {
 }
 
 .container img {
-  width: 600px;
+  width: 450px;
   position: absolute;
-  bottom: -5px;
+  top: 200px;
   right: 200px;
+  border-radius: 30px 20px;
+}
+
+.home-text {
+  padding: 250px 150px;
+}
+
+.home-text span {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--green-color);
+}
+
+.home-text h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
