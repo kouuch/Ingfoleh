@@ -110,3 +110,15 @@ header {
   z-index: 10001;
   display: none;
 }
+
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 640px;
+  display: flex;
+  align-items: center;
+  background: url("images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
