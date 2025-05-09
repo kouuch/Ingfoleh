@@ -211,3 +211,9 @@ header {
 .heading span {
   color: var(--green-color);
 }
+
+.categories {
+  max-width: 1259px;
+  margin-left: auto;
+  margin-right: auto;
+}
