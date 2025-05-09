@@ -273,3 +273,18 @@ header {
   display: block;
   transition: 0.2s all linear;
 }
+
+.box1 {
+  background: #f3f4ea;
+}
+
+.box2 {
+  background: #e9f4e3;
+}
+
+.box3 {
+  background: #faeaea;
+}
+.box4 {
+  background: #eeeef9;
+}
