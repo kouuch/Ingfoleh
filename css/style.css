@@ -125,9 +125,9 @@ header {
 }
 /* ytang mainkan penyesuaian foto */
 .container img {
-  width: 450px;
+  width: 600px;
   position: absolute;
-  top: 200px;
+  top: 250px;
   right: 200px;
   border-radius: 30px 20px;
 }
@@ -173,4 +173,26 @@ header {
 .btn:hover {
   background: var(--light-orange-color);
   transition: 0.2s ease;
+}
+
+/* .swiper-button-prev {
+  background: url(../images/arrow/left.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin-left: 20px ;
+} */
+
+.swiper-button-prev::after {
+  color: #6f797e;
+  margin-left: 20px ;
+}
+
+.swiper-button-next::after {
+  color: #6f797e;
+  /* background: url(../images/arrow/left.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center; */
+  margin-right: 20px ;
 }
