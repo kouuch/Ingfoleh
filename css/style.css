@@ -220,7 +220,7 @@ header {
 
 .categories-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(180px,auto));
+  grid-template-columns: repeat(auto-fit, minmax(180px, auto));
   gap: 1rem;
   margin-top: 2rem;
 }
@@ -252,7 +252,6 @@ header {
 }
 
 .categories-container .box .bx {
-  
   padding: 10px;
   background: var(--green-color);
   border-radius: 5rem;
@@ -285,6 +284,7 @@ header {
 .box3 {
   background: #faeaea;
 }
+
 .box4 {
   background: #eeeef9;
 }
