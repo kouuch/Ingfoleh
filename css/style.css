@@ -185,7 +185,7 @@ header {
 
 .swiper-button-prev::after {
   color: #6f797e;
-  margin-left: 20px ;
+  margin-left: 20px;
 }
 
 .swiper-button-next::after {
@@ -194,5 +194,20 @@ header {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center; */
-  margin-right: 20px ;
+  margin-right: 20px;
+}
+/* categories */
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading h1 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.heading span {
+  color: var(--green-color);
 }
