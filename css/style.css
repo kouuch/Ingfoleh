@@ -189,6 +189,7 @@ header {
 }
 
 .swiper-button-next::after {
+  
   color: #6f797e;
   /* background: url(../images/arrow/left.png);
   background-repeat: no-repeat;
