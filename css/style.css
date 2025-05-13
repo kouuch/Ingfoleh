@@ -189,7 +189,6 @@ header {
 }
 
 .swiper-button-next::after {
-  
   color: #6f797e;
   /* background: url(../images/arrow/left.png);
   background-repeat: no-repeat;
@@ -288,4 +287,101 @@ header {
 
 .box4 {
   background: #eeeef9;
+}
+
+/* products */
+
+.products {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 300px));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.products-container .box {
+  padding: 20px 20px 10px 20px;
+  box-shadow: 1px 2px 11px 4px rgb(14 55 54 /15%);
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.products-container .box img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.products-container .box span {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.products-container .box h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.products-container .box .price {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  color: var(--light-orange-color);
+}
+
+.products-container .box .price span {
+  color: var(--text-color);
+}
+
+.products-container .box .bx-map {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  background: var(--green-color);
+  color: var(--bg-color);
+  font-size: 20px;
+  border-radius: 0.5rem 0 0.5rem 0;
+}
+
+.products-container .box .bx-map:hover {
+  background: var(--light-green-color);
+  color: var(--text-color);
+  transition: 0.2s all linear;
+}
+
+.products-container .box .bx-heart,
+.products-container .box .bxs-heart {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  font-size: 20px;
+  color: var(--light-orange-color);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.products-container .box .bx-heart.liked,
+.products-container .box .bxs-heart {
+  color: var(--light-orange-color);
+}
+
+.products-container .box .bx-buildings {
+  font-size: 16px;
+}
+
+.products-container .box h6 {
+  font-size: 12px;
+  gap: 7px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
 }

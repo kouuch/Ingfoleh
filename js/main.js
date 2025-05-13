@@ -11,3 +11,14 @@ var swiper = new Swiper(".home", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+function toggleHeart(element) {
+    // Menambah atau menghapus class 'liked' saat icon diklik
+    if (element.classList.contains('bx-heart')) {
+      element.classList.remove('bx-heart');
+      element.classList.add('bxs-heart');
+    } else {
+      element.classList.remove('bxs-heart');
+      element.classList.add('bx-heart');
+    }
+  }
