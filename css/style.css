@@ -407,3 +407,84 @@ header {
 .about-text p {
   margin: 8px 0 16px 0;
 }
+
+/* costumers */
+.costumers {
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.costumers h2 {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.costumers-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.costumers-container .box {
+  padding: 20px;
+  box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
+  border-radius: 0.5rem;
+  border-bottom: 7px solid var(--green-color);
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.costumers-container .box:hover {
+  transform: translateY(10px);
+  transition: 0.2s all linear;
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  -o-transform: translateY(10px);
+  -webkit-transition: 0.2s all linear;
+  -moz-transition: 0.2s all linear;
+  -ms-transition: 0.2s all linear;
+  -o-transition: 0.2s all linear;
+}
+
+.costumers-container .box .bx {
+  font-size: 24px;
+  color: var(--green-color);
+}
+
+.costumers-container .box .stars .bx {
+  font: 16px;
+  color: var(--light-orange-color);
+}
+
+.costumers-container .box p {
+  font-size: 15px;
+}
+
+.review-profile {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  column-gap: 0.5rem;
+}
+
+.review-profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.review-profile h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
