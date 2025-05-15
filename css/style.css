@@ -497,7 +497,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   gap: 1.5rem;
   margin-top: 2rem;
   border-radius: 0.5rem;
@@ -571,16 +571,23 @@ header {
 
 .footer-box form input {
   background: transparent;
-  border : none;
+  border: none;
   outline: none;
 }
 
 .footer-box form .bx {
-  font-size: 20PX;
+  font-size: 20px;
   color: var(--light-orange-color);
   cursor: pointer;
 }
 
 .footer-box form .bx-envelope {
   color: var(--green-color);
+}
+
+/* copyright */
+
+.copyright {
+  text-align: center;
+  padding: 20px;
 }
