@@ -29,19 +29,25 @@
         </ul>
         <!-- profile -->
         <div class="profile">
-            <img src="./images/profile/profile 1.jpeg" alt="">
+            <img src="./images/profile/profile 1.jpeg">
             <span>Subhan</span>
-            <box-icon name='caret-down'></box-icon>
+            <i class='bx bx-caret-down' onclick="toggleMenu(this);"></i>
         </div>
 
         <!-- submenu -->
-        <div class="sub-menu-wrap">
+        <div class="sub-menu-wrap" id="subMenu">
             <div class="sub-menu">
                 <div class="user-info">
                     <img src="./images/profile/profile.jpg" alt="">
                     <h3>Muhammad Rifky Irsada</h3>
                 </div>
                 <hr>
+
+                <a href="#" class="sub-menu-link">
+                    <i class='bx bxs-report'></i>
+                    <p>Report Products</p>
+                    <span>></span>
+                </a>
 
                 <a href="#" class="sub-menu-link">
                     <i class='bx bx-log-out'></i>
@@ -90,7 +96,7 @@
     <section class="categories" id="categories">
         <div class="heading">
             <h1>Khas Kalimantan Selatan <br><span>Categories</span></h1>
-            <a href="#products" class="btn">Lihat Semua<i class='bx bx-right-arrow-alt'></i></a>
+            <a href="#products" class="btn">Lihat Semua<i class='bx bx-right-arrow-alt' ></i></a>
         </div>
         <!-- conten -->
         <div class="categories-container">

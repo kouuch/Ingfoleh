@@ -615,7 +615,19 @@ header {
   position: absolute;
   top: 100%;
   right: 6%;
-  width: auto;
+  width: 320px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  -webkit-transition: max-height 0.5s;
+  -moz-transition: max-height 0.5s;
+  -ms-transition: max-height 0.5s;
+  -o-transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu {
+  max-height: 400px;
+  
 }
 
 .sub-menu {
@@ -637,6 +649,7 @@ header {
 
 .user-info h3 {
   font-weight: 500;
+  text-align: center;
 }
 
 .user-info img {
@@ -663,7 +676,6 @@ header {
 
 .sub-menu-link {
   width: 100%;
-  
 }
 
 .sub-menu-link:hover {
@@ -697,7 +709,6 @@ header {
 
 .sub-menu-link:hover span {
   transform: translateX(5px);
-
   -webkit-transform: translateX(5px);
   -moz-transform: translateX(5px);
   -ms-transform: translateX(5px);
