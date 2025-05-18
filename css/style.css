@@ -619,9 +619,14 @@ header {
 }
 
 .sub-menu {
+  border-radius: 8px 0 8px 0;
   background: var(--bg-color);
   padding: 20px;
   margin: 10px;
+  -webkit-border-radius: 8px 0 8px 0;
+  -moz-border-radius: 8px 0 8px 0;
+  -ms-border-radius: 8px 0 8px 0;
+  -o-border-radius: 8px 0 8px 0;
 }
 
 .user-info {
