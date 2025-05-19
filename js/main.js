@@ -11,7 +11,7 @@ var swiper = new Swiper(".home", {
     prevEl: ".swiper-button-prev",
   },
 });
-
+// heart
 function toggleHeart(element) {
   if (element.classList.contains('bx-heart')) {
     element.classList.remove('bx-heart');
@@ -21,7 +21,7 @@ function toggleHeart(element) {
     element.classList.add('bx-heart');
   }
 }
-
+// submenu
 let subMenu = document.getElementById("subMenu");
 
 function toggleMenu(element) {
@@ -33,4 +33,15 @@ function toggleMenu(element) {
     element.classList.add('bx-caret-down');
   }
   subMenu.classList.toggle("open-menu");
+}
+
+// check
+function toggleCheck(element) {
+  if (element.classList.contains('bx-checkbox')) {
+    element.classList.remove('bx-checkbox');
+    element.classList.add('bx-checkbox-checked');
+  } else {
+    element.classList.remove('bx-checkbox-checked');
+    element.classList.add('bx-checkbox');
+  }
 }

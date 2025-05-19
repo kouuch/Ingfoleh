@@ -357,6 +357,22 @@ header {
   transition: 0.2s all linear;
 }
 
+.products-container .box .bx-checkbox,
+.products-container .box .bx-checkbox-checked {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+  font-size: 20px;
+  color: var(--light-orange-color);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.products-container .box .bx-checkbox,
+.products-container .box .bx-checkbox-checked {
+  color: var(--light-orange-color);
+}
+
 .products-container .box .bx-heart,
 .products-container .box .bxs-heart {
   position: absolute;
@@ -717,4 +733,46 @@ header {
 
 .sub-menu-link:hover p {
   font-weight: 600;
+}
+
+/* btn CRUD */
+.btn-crud {
+  padding: 0.6rem;
+  background: var(--green-color);
+  color: var(--bg-color);
+  font-weight: 400;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  column-gap: 0.8rem;
+  max-width: 150px;
+}
+
+.btn-crud img {
+  background: var(--bg-color);
+  padding: 4px;
+  border-radius: 1rem;
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.btn-crud p {
+  text-align: center;
+  top: 1px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.btn-crud:hover{
+  background: var(--light-orange-color);
+}
+.btn-container {
+  display: flex;
+  column-gap: 0.8rem;
 }
