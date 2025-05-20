@@ -46,4 +46,3 @@ function toggleCheck(element) {
   }
 }
 
-// produtcs portal admin

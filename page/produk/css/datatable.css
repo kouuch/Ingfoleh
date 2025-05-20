@@ -1,0 +1,93 @@
+@import "../../../css/style.css";
+
+/* custoom scrol bar */
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+body {
+  background: var(--bg-color);
+}
+
+.container-table {
+  max-width: 1500px;
+  margin: 25px;
+  background: var(--bg-color);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 11px 4px rgb(14 55 54 /15%);
+}
+
+.container-table table thead {
+  border-bottom-color: var(--bg-color);
+}
+
+.container-table table {
+  border-color: var(--green-color);
+}
+
+.container-table table thead {
+  color: var(--bg-color);
+  background: var(--green-color);
+}
+
+.container-table table thead tr th {
+  border-right-color: var(--bg-color);
+}
+
+.container-table table thead tr th:first-child {
+  border-left-color: var(--green-color);
+}
+
+.container-table table thead tr th:last-child {
+  border-right-color: var(--green-color);
+}
+
+table thead tr th,
+table tbody tr td {
+  text-align: left !important;
+}
+
+table thead tr th:last-child {
+  pointer-events: none;
+}
+
+table thead tr th:last-child .dt-column-order {
+  display: none;
+}
+
+table tbody tr {
+  cursor: pointer;
+}
+
+table tbody tr td {
+  white-space: nowrap;
+}
+
+table tbody tr td:first-child {
+  font-weight: 600;
+  text-align: center !important;
+}
+
+table tbody tr:nth-child(even) {
+  background: #f2f2f2 !important;
+}
+
+table tbody tr:hover {
+  background: var(--green-color) !important;
+  color: var(--bg-color);
+}
+
+table tbody tr:hover td:not(:last-child) {
+  border-right-color: var(--bg-color);
+}
+
+thead tr th:last-child,
+tbody tr td:last-child {
+  width: 160px;
+}
