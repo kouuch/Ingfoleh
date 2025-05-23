@@ -737,9 +737,8 @@ header {
 
 /* point menu  */
 .sub-point-link {
-  max-height: 0;
+
   overflow: hidden;
-  transition: max-height 0.4s ease;
   display: flex;
   align-items: center;
   color: var(--text-color);
@@ -751,7 +750,6 @@ header {
 
 .sub-point-link p {
   width: 100%;
-  margin-left: 60px;
 }
 
 .sub-point-link .bx {
@@ -787,6 +785,18 @@ header {
   font-weight: 400;
   color: var(--light-orange-color);
 }
+
+.submenu-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  margin-left: 20px;
+}
+
+.submenu-container.open-menu-sub {
+  max-height: 200px;
+}
+
 
 /* btn CRUD */
 .btn-crud {

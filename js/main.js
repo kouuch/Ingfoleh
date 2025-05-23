@@ -23,8 +23,11 @@ function toggleHeart(element) {
 }
 // submenu
 let subMenu = document.getElementById("subMenu");
-let reportMenu = document.getElementById("reportMenu");
-let reportProductsMenus = document.querySelectorAll(".sub-point-link");
+const reportMenu = document.getElementById('reportMenu');
+const productsMenu = document.getElementById('productsMenu');
+
+const reportSubMenu = document.getElementById('reportSubMenu');
+const productsSubMenu = document.getElementById('productsSubMenu');
 
 function toggleMenu(element) {
   if (element.classList.contains('bx-caret-down')) {
@@ -37,32 +40,27 @@ function toggleMenu(element) {
 
   subMenu.classList.toggle("open-menu");
 
-  
   if (!subMenu.classList.contains("open-menu")) {
-    reportProductsMenus.forEach(menu => {
-      menu.classList.remove('open-menu-sub');
-    });
+    reportSubMenu.classList.remove('open-menu-sub');
+    productsSubMenu.classList.remove('open-menu-sub');
   }
 }
 
-reportMenu.addEventListener('click', function(e) {
+reportMenu.addEventListener('click', e => {
   e.preventDefault();
 
-  reportProductsMenus.forEach(menu => {
-    menu.classList.toggle('open-menu-sub');
-  });
+  productsSubMenu.classList.remove('open-menu-sub');
+
+  reportSubMenu.classList.toggle('open-menu-sub');
 });
 
-function toggleCheck(element) {
-  if (element.classList.contains('bx-checkbox')) {
-    element.classList.remove('bx-checkbox');
-    element.classList.add('bx-checkbox-checked');
-  } else {
-    element.classList.remove('bx-checkbox-checked');
-    element.classList.add('bx-checkbox');
-  }
-}
+productsMenu.addEventListener('click', e => {
+  e.preventDefault();
 
+  reportSubMenu.classList.remove('open-menu-sub');
+
+  productsSubMenu.classList.toggle('open-menu-sub');
+});
 
 
 // check
